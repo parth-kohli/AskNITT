@@ -234,7 +234,7 @@ async def ask_ai(
 ):
     client = OpenAI(
         base_url="https://openrouter.ai/api/v1",
-        api_key="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", 
+        api_key="api-key", 
     )
 
     content_parts = [{
